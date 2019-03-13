@@ -1,3 +1,9 @@
+-----
+This repo contains an implementation of the Model Predictive Control algorithm using the Interior Point Method for optimization. It is built on Udacity's Self-Driving Car Nanodegree CarND-MPC-Project.
+
+The description below comes from the original repo (https://github.com/udacity/CarND-MPC-Project.git).
+
+-----
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
 
