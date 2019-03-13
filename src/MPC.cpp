@@ -61,7 +61,7 @@ public:
             // cost from heading errors
             fg[0] += 3000 * CppAD::pow(vars[psi_error_start + i], 2);
             // Cost from deviations from reference velocity
-            fg[0] += 1 * CppAD::pow(vars[v_start + i] - v_ref, 2);
+            fg[0] += 5 * CppAD::pow(vars[v_start + i] - v_ref, 2);
         }
         
         for (unsigned int i = 0; i < N - 1; i++) {
